@@ -26,3 +26,6 @@ LasersBluePool.current.FireWeapon(transform.position, transform.rotation, transf
 
 ### Bloom
 I did not include any Bloom post processing solution in this example.  I strongly recommend using Bloom, as it makes the laser projectiles look a lot more impressive.  I used the Bloom feature in the [Beautify](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/beautify-61730) assset with my space games.
+
+### Performance
+When I tested this instancing pool demo project in Unity 2019.3 on my computer, I was getting over 900 FPS with 3-5 draw calls.  My games on Steam typically get about 100-300 FPS depending on the user's computer hardware specs.
