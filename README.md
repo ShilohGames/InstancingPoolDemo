@@ -24,3 +24,5 @@ In a script on your space ship game object in your own space game, use the follo
 LasersBluePool.current.FireWeapon(transform.position, transform.rotation, transform.forward, gameObject);
 ```
 
+### Bloom
+I did not include any Bloom post processing solution in this example.  I strongly recommend using Bloom, as it makes the laser projectiles look a lot more impressive.  I used the Bloom feature in the [Beautify](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/beautify-61730) assset with my space games.
