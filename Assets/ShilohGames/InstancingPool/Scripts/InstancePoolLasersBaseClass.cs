@@ -53,20 +53,6 @@ namespace ShilohGames
 
         private bool renderEnabled = true;
 
-        /*
-        public enum ProjectileTypes
-        {
-            PlayerDualLasers = 1,
-            HumanSingleMediumLaser = 2,
-            HumanSingleFlakLaser = 3,
-            PlasmaSingleSmall = 10,
-            RedSingleMediumLaser = 20,
-            ConcussionMissile = 30,
-            Unknown = 255
-        }
-
-        public ProjectileTypes projectileType = ProjectileTypes.Unknown;
-        */
 
 
         public enum ImpactTypeEnum
@@ -162,28 +148,6 @@ namespace ShilohGames
         }
 
 
-        /*
-        public void AddProjectileFromNetwork(Vector3 weaponPosition, Quaternion weaponRotation, Vector3 weaponMovementVectorForward, GameObject weaponFiredBy)
-        {
-            int projectileNumber = 0;
-            projectileNumber = FindNextInactiveProjectile();
-
-            if (projectileNumber > pooledHighestIndex)
-            {
-                pooledHighestIndex = projectileNumber;
-            }
-
-            ProjectileArray[projectileNumber].active = true;
-
-            ProjectileArray[projectileNumber].oldPosition = weaponPosition;
-            ProjectileArray[projectileNumber].currentPosition = weaponPosition;
-            ProjectileArray[projectileNumber].FiredBy = weaponFiredBy;
-            ProjectileArray[projectileNumber].movementVector = weaponMovementVectorForward * velocity;
-            ProjectileArray[projectileNumber].directionVectorNormalized = ProjectileArray[projectileNumber].movementVector.normalized;
-            ProjectileArray[projectileNumber].rotation = weaponRotation;
-            ProjectileArray[projectileNumber].timeToExpire = Time.time + life;
-        }
-        */
 
 
         public void DisableProjectiles()
